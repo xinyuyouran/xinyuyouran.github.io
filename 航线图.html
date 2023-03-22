@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="4a0c0700a3ec43c29088efbf126e0865" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_4a0c0700a3ec43c29088efbf126e0865 = echarts.init(
+            document.getElementById('4a0c0700a3ec43c29088efbf126e0865'), 'white', {renderer: 'canvas'});
+        var option_4a0c0700a3ec43c29088efbf126e0865 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "white",
+        "yellow",
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u5e7f\u5dde",
+                    "value": [
+                        113.23,
+                        23.16,
+                        10
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac",
+                    "value": [
+                        116.407526,
+                        39.90403,
+                        10
+                    ]
+                },
+                {
+                    "name": "\u676d\u5dde",
+                    "value": [
+                        120.19,
+                        30.26,
+                        10
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86",
+                    "value": [
+                        106.551556,
+                        29.563009,
+                        10
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            }
+        },
+        {
+            "type": "scatter",
+            "coordinateSystem": "geo",
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "New York",
+                    "value": [
+                        -20,
+                        10.1,
+                        10
+                    ]
+                },
+                {
+                    "name": "Los Angeles",
+                    "value": [
+                        -118.15,
+                        34.04,
+                        10
+                    ]
+                },
+                {
+                    "name": "Berlin",
+                    "value": [
+                        13.2,
+                        52.31,
+                        10
+                    ]
+                },
+                {
+                    "name": "Washington",
+                    "value": [
+                        -77.02,
+                        38.53,
+                        10
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u56fd\u822a",
+            "coordinateSystem": "geo",
+            "zlevel": 4,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "white",
+                "symbol": "arrow",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u5317\u4eac->New York",
+                    "coords": [
+                        [
+                            116.407526,
+                            39.90403
+                        ],
+                        [
+                            -20,
+                            10.1
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac->Los Angeles",
+                    "coords": [
+                        [
+                            116.407526,
+                            39.90403
+                        ],
+                        [
+                            -118.15,
+                            34.04
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5317\u4eac->Berlin",
+                    "coords": [
+                        [
+                            116.407526,
+                            39.90403
+                        ],
+                        [
+                            13.2,
+                            52.31
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u676d\u5dde->Los Angeles",
+                    "coords": [
+                        [
+                            120.19,
+                            30.26
+                        ],
+                        [
+                            -118.15,
+                            34.04
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86->New Yor",
+                    "coords": [
+                        [
+                            106.551556,
+                            29.563009
+                        ],
+                        [
+                            -20,
+                            10.1
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        },
+        {
+            "type": "lines",
+            "name": "\u5357\u822a",
+            "coordinateSystem": "geo",
+            "zlevel": 5,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "yellow",
+                "symbol": "arrow",
+                "symbolSize": 6
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "\u5e7f\u5dde->Washington",
+                    "coords": [
+                        [
+                            113.23,
+                            23.16
+                        ],
+                        [
+                            -77.02,
+                            38.53
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u5dde->Los Angeles",
+                    "coords": [
+                        [
+                            113.23,
+                            23.16
+                        ],
+                        [
+                            -118.15,
+                            34.04
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u5e7f\u5dde->Berlin",
+                    "coords": [
+                        [
+                            113.23,
+                            23.16
+                        ],
+                        [
+                            13.2,
+                            52.31
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u676d\u5dde->Berlin",
+                    "coords": [
+                        [
+                            120.19,
+                            30.26
+                        ],
+                        [
+                            13.2,
+                            52.31
+                        ]
+                    ]
+                },
+                {
+                    "name": "\u91cd\u5e86->Washington",
+                    "coords": [
+                        [
+                            106.551556,
+                            29.563009
+                        ],
+                        [
+                            -77.02,
+                            38.53
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "",
+                "",
+                "\u56fd\u822a",
+                "\u5357\u822a"
+            ],
+            "selected": {
+                "": true,
+                "\u56fd\u822a": true,
+                "\u5357\u822a": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Geo-Line-Plane",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "nameProperty": "name",
+        "selectedMode": false,
+        "itemStyle": {
+            "color": "grey",
+            "borderColor": "black"
+        },
+        "emphasis": {}
+    }
+};
+        chart_4a0c0700a3ec43c29088efbf126e0865.setOption(option_4a0c0700a3ec43c29088efbf126e0865);
+    </script>
+</body>
+</html>
