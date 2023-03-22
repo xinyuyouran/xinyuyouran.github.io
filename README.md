@@ -9,5 +9,6 @@
 [分布图链接](http://xinyuyouran.github.io/中国各省人口分布图.html)
 
 第三项内容：世界地图
+[航线图链接](http://xinyuyouran.github.io/航线图.html)
 
 第四项内容：组合图表
