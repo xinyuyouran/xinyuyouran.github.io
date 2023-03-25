@@ -11,4 +11,5 @@
 第三项内容：世界地图
 [航线图链接](http://xinyuyouran.github.io/航线图.html)
 
-第四项内容：组合图表
+第四项内容：2015年至2020年蒸发量降水量及平均温度组合图表
+[图表链接](http://xinyuyouran.github.io/)
